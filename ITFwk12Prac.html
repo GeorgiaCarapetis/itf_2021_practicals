@@ -1,0 +1,59 @@
+<html>
+<head>
+    <script>
+
+        function image1(){
+            document.getElementById('Image').src="http://www.outgrabe.net/bird00.jpg"
+            docuemnt.getElementById('ImageText').innerHTML="Pardalote by fir0002 (CC-by-NC)"
+        }
+
+        function image2(){
+            document.getElementById('Image').src="http://www.outgrabe.net/bird01.jpg"
+            document.getElementById('ImageText').innerHTML="Purple swamp hen by Toby Hudson (CC-by-SA)"
+        }
+
+        function image3() {
+            document.getElementById('Image').src="http://www.outgrabe.net/bird02.jpg"
+            document.getElementById('ImageText').innerHTML="White-headed Stilt by JJ Harrison (CC-by-SA)"
+        }
+
+        function image4(){
+            document.getElementById('Image').src="http://www.outgrabe.net/bird03.jpg"
+            document.getElementById("ImageText").innerHTML="Inland Thornbill by Peter Jacobs (CC-by-SA)"
+        }
+
+        function image5(){
+            document.getElementById('Image').src="http://www.outgrabe.net/bird04.jpg"
+            docuemnt.getElementById("ImageText").innerHTML="Rose Robin by JJ Harrison (CC-by-SA)"
+        }
+      
+    </script>
+    <style>
+        * {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        header {
+            padding: 50px; 
+            text-align: center;
+            background-color: grey;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Week 12 Information Technology Fundamentals Practical</h1>
+        <p>Javascript</p>
+    </header>
+
+    <main>
+        <img src='http://www.outgrabe.net/bird00.jpg' id="Image">
+        <p id="ImageText">Pardalote by fir0002 (CC-by-NC)</p>
+
+        <button Id="Button1" onclick="image1()">Pardalote</button>
+        <button Id="Button2" onclick="image2()">Purple Swamp Hen</button>
+        <button Id="Button3" onclick="image3()">White-headed Stilt</button>
+        <button Id="Button4" onclick="image4()">Inland Thornbill</button>
+        <button Id="Button5" onclick="image5()">Rose Robin</button>
+    </main>
+</body>
