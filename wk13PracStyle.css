@@ -1,0 +1,76 @@
+:root {
+    --primary-color: rgb(221, 189, 252);
+    --bg-color: rgb(224, 195, 252);
+    --secondary-color: rgb(152, 130, 196);
+    --font-color: rgb(175, 177, 240);
+    --heading-color: rgb(137, 133, 204);
+}
+
+[data-theme="dark"] {
+    --primary-color: rgb(0, 150, 199);
+    --bg-color: rgb(144, 224, 239);
+    --secondary-color: rgb(0, 180, 216);
+    --font-color: rgb(2, 62, 138);
+    --heading-color: rgb(112, 155, 163);
+}
+ body {
+     background-color: var(--bg-color);
+
+ }
+ 
+ header, footer {
+    background-color: var(--heading-color);
+    color: var(--font-color); 
+    text-align: center;
+    font-size: 150%;
+ }
+
+ /* ---- ARTICLE ---- */ 
+article {
+    width: 80%;
+    float: left; 
+}
+
+article h3 {
+    padding-top: 50px;
+}
+
+article section {
+    border: solid 3px; 
+    border-color: var(--secondary-color);
+}
+
+
+main {
+    color: var(--heading-color);
+}
+
+a {
+    color: var(--font-color);
+}
+
+a:hover {
+    color: var(--heading-color);
+}
+
+nav li {
+    width: 100%;
+    list-style-type: none;
+}
+
+nav ul {
+    align-items: center;
+    display: flex;
+}
+
+
+
+aside a {
+    color: var(--font-color);
+}
+
+aside a:hover {
+    color: var(--heading-color);
+}
+
+
